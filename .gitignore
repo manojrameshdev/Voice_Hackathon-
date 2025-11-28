@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+dosebuddy_venv/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.db-journal
+data/dosebuddy.db
+
+# Prescriptions (sensitive data)
+prescriptions/*
+!prescriptions/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Credentials (IMPORTANT!)
+config.py
+*_credentials.py
+.env
+
+# Logs
+*.log
